@@ -5,7 +5,7 @@ module.exports = {
     extensions: [ '.tsx', '.ts', '.js' ]
   },
   output: {
-    filename: 'bundle.js'
+    filename: './js/bundle.js'
   },
   devServer: {
     inline: false

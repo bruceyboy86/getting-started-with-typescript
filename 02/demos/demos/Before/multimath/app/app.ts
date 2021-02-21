@@ -1,7 +1,7 @@
 
 function startGame() {
-    var messagesEl = document.documentElement('#messages')
-    messagesEl = 'wassaaap';
+    let messagesEl = document.getElementById('messages')
+    messagesEl!.innerText = 'wassaaap';
 }
 
-document.querySelector('#startGame')?.addEventListener('click', startGame);
+document.querySelector('#startGame')?.addEventListener('click', startGame); 
