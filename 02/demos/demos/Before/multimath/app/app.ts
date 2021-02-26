@@ -4,8 +4,8 @@ function startGame() {
     let playerName: string = 'Bruce'
     logPlayer(playerName)
     // comment
-    let messagesEl = document.getElementById('messages')
-    messagesEl!.innerText = 'wassaaap';
+    let messagesEl:HTMLElement = document.getElementById('messages')
+    messagesEl.innerText = 'wassaaap';
 }
 
 function logPlayer(name: string) {
@@ -13,3 +13,5 @@ function logPlayer(name: string) {
 }
 
 document.querySelector('#startGame')?.addEventListener('click', startGame); 
+
+
