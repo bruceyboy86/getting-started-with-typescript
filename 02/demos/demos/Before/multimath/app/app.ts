@@ -1,11 +1,11 @@
 
 function startGame() {
 
-    let playerName: string = 'Bruce'
+    let playerName: string = 'bruce'
     logPlayer(playerName)
     // comment
-    let messagesEl:HTMLElement = document.getElementById('messages')
-    messagesEl.innerText = 'wassaaap';
+    let messagesEl = document.getElementById('messages')
+    messagesEl!.innerText = 'wassaaap' ;
 }
 
 function logPlayer(name: string) {
