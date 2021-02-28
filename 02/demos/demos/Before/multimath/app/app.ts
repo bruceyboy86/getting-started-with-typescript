@@ -8,10 +8,10 @@ function startGame() {
     messagesEl!.innerText = 'wassaaap' ;
 }
 
-function logPlayer(name: string) {
+function logPlayer(name:string ): void {
     console.log(`New game starting for player: ${name}`)
 }
 
-document.querySelector('#startGame')?.addEventListener('click', startGame); 
+document.querySelector('#startGame')!.addEventListener('click', startGame); 
 
 
