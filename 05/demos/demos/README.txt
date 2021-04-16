@@ -4,4 +4,4 @@ The demo code does not include the npm packages required to run the application.
 
 npm install
 
-lots of code done during work today similar to this 
+Reading and understanding
